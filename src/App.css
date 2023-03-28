@@ -36,3 +36,142 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar {
+  background-color: #68abdc;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  max-width: 1500px;
+}
+.nav-logo {
+  color: #203e53;
+  align-items: center;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  flex-grow: 1;
+}
+.nav-menu {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  margin-right: 2rem;
+}
+.nav-item {
+  line-height: 40px;
+  margin-right: 1rem;
+}
+.Home1 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Home {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.Delete {
+  background-color: red;
+  border-radius: 1%;
+  border: none;
+  color: black;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 5%;
+}
+.Details {
+  background-color: lightseagreen;
+  border-radius: 1%;
+  border: none;
+  color: black;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 5%;
+}
+.bookImage {
+  text-align: center;
+}
+.button {
+  background-color: #d9d9d9;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 5%;
+  margin-top: 2%;
+}
+.inputField {
+  width: 100%;
+  padding: 16px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+.inputContainer {
+  margin-top: 5%;
+}
+.submit {
+  background-color: #426170;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.imagediv {
+  float: left;
+  width: 30%;
+}
+.image {
+  width: 400px;
+}
+.detailsdev {
+  float: right;
+  width: 70%;
+  height: 70%;
+}
+.all {
+  width: 60vw;
+  height: 80vh;
+}
+.alll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+}
+.div3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
